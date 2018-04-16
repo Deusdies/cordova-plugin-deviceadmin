@@ -3,9 +3,15 @@
     <name>Cordova Device Administrator Plugin</name>
     <description> A Cordove/PhoneGap plugin prompting the user for the Device Administrator rights for their Android device </description>
     <license>MIT</license>
-    <keywords>cordova,admin,device policy manager,administrator</keywords>
-    <js-module src="www/admin.js" name="admin">
-        <clobbers target="admin" />
+    <keywords>cordova,admin,device policy manager,administrator,device admin,device administrator,device admin receiver</keywords>
+    <js-module src="www/admin.js" name="DeviceAdmin">
+        <clobbers target="deviceadmin" />
     </js-module>
-    
+
+    <platform name="android">
+        <source-file src="src/android/DeviceAdmin.java" />
+        <engines>
+            <engine name="cordova-android" version=">7.0.0" />
+        </engines>
+    </platform>
 </plugin>

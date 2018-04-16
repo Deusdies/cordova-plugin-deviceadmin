@@ -1,0 +1,32 @@
+{
+  "name": "cordova-plugin-deviceadmin",
+  "version": "0.1.0",
+  "description": " A Cordove/PhoneGap plugin prompting the user for the Device Administrator rights for their Android device ",
+  "cordova": {
+    "id": "cordova-plugin-deviceadmin",
+    "platforms": [
+      "android"
+    ]
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Deusdies/cordova-plugin-deviceadmin.git"
+  },
+  "keywords": [
+    "cordova",
+    "admin",
+    "device policy manager",
+    "administrator",
+    "device admin",
+    "device administrator",
+    "device admin receiver",
+    "ecosystem:cordova",
+    "cordova-android"
+  ],
+  "author": "Bo Milanovich <bo@bomilanovich.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Deusdies/cordova-plugin-deviceadmin/issues"
+  },
+  "homepage": "https://github.com/Deusdies/cordova-plugin-deviceadmin#readme"
+}
