@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<plugin xmlns="http://apache.org/cordova/ns/plugins/1.0" id="cordova-plugin-deviceadmin" version="0.1.0">
+    <name>Cordova Device Administrator Plugin</name>
+    <description> A Cordove/PhoneGap plugin prompting the user for the Device Administrator rights for their Android device </description>
+    <license>MIT</license>
+    <keywords>cordova,admin,device policy manager,administrator</keywords>
+    <js-module src="www/admin.js" name="admin">
+        <clobbers target="admin" />
+    </js-module>
+    
+</plugin>
